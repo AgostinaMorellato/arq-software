@@ -3,7 +3,7 @@ package div
 import "errors"
 
 
-func Division(a int, b int) (int, error) {
+func Division(a float64, b float64) (float64, error) {
 
 	if b == 0 {
           return 0, errors.New("no puedo dividir por 0")
